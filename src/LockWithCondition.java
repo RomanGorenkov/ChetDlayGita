@@ -2,6 +2,9 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class LockWithCondition {
+    static void chetinfo(){
+        System.out.printf("%s","cheta");
+    }
 
     public static void main(String[] args) {
         Store store = new Store();
